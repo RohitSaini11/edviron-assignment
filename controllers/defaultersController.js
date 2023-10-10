@@ -33,7 +33,6 @@ module.exports.findDefaultees = async function(req,res){
 
     } catch (error) {
         res.send(`Database error: can't data: ${error}`)
-        // console.log("Database error: can't the given student \n ",error);
     }
 
 }
