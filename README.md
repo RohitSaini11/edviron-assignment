@@ -9,3 +9,4 @@
 
   {BASE_URL}/api/defaultees
   
+BASE_URL= https://edviron-assignment-kappa.vercel.app
