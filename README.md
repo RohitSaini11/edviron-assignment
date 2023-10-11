@@ -6,4 +6,6 @@
   This is an api that returns the list of defauter students.
 
 #### Endpoints
+
+  {BASE_URL}/api/defaultees
   
