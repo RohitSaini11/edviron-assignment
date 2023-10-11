@@ -1,10 +1,8 @@
 const mongoose= require("mongoose");
 const db = require('../config/mongoose');
 
-// const Que = mongoose.model('questions',new mongoose.Schema({}, { strict: false }), 'questions');
 const Students = mongoose.model('students',new mongoose.Schema({}, { strict: false }), 'students');
 const Invoices = mongoose.model('invoices',new mongoose.Schema({}, { strict: false }), 'invoices');
-
 
 module.exports.findDefaultees = async function(req,res){
     
